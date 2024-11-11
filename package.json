@@ -1,0 +1,40 @@
+{
+  "name": "ensure-array-values",
+  "version": "1.0.0",
+  "description": "A TypeScript utility function for ensuring that all values in the provided array match the specified type.",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "typescript",
+    "utility",
+    "types"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "devDependencies": {
+    "gts": "^6.0.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvasin/ensure-array-values.git"
+  },
+  "author": "Vitaly Vasin <vitaly.n.vasin@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/vvasin/ensure-array-values/issues"
+  },
+  "homepage": "https://github.com/vvasin/ensure-array-values#readme"
+}
