@@ -14,7 +14,7 @@
     "types"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
     "lint": "gts lint",
     "clean": "gts clean",
     "compile": "tsc",
@@ -24,9 +24,10 @@
     "posttest": "npm run lint"
   },
   "devDependencies": {
+    "@types/node": "^22.7.5",
     "gts": "^6.0.2",
     "typescript": "^5.6.3",
-    "@types/node": "^22.7.5"
+    "vitest": "^2.1.4"
   },
   "repository": {
     "type": "git",
